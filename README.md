@@ -4,7 +4,7 @@ This app is an interview project created in React, using Redux and Redux Toolkit
 
 This app allows user to create new recipes, preview recipes in a list or have a more detailed view of a specific recipe, and delete recipes.
 
-Live preview available at: []()
+Live preview available at: [https://icook-recipes.netlify.app/recipes](https://icook-recipes.netlify.app/recipes)
 
 ## Getting Started with Create React App and Redux
 
