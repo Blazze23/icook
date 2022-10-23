@@ -41,3 +41,17 @@ li {
 .instructions {
   font-style: italic;
 }
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .instructions {
+    text-align: center;
+  }
+}
