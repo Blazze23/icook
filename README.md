@@ -1,4 +1,12 @@
-# Getting Started with Create React App and Redux
+# iCook React Recipes App
+
+This app is an interview project created in React, using Redux and Redux Toolkit, React Router and React Hook Form libraries.
+
+This app allows user to create new recipes, preview recipes in a list or have a more detailed view of a specific recipe, and delete recipes.
+
+Live preview available at: []()
+
+## Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 

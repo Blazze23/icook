@@ -1,0 +1,43 @@
+.container {
+  padding: 1rem 2rem;
+  color: #303841;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.card {
+  min-width: 40%;
+  min-height: 28rem;
+  overflow-wrap: break-word;
+}
+
+.btnAlt {
+  margin: 1rem 0;
+}
+
+.btnAlt:hover {
+  color: red;
+}
+
+.action {
+  text-align: center;
+}
+
+li {
+  font-weight: bold;
+}
+
+.instructions {
+  font-style: italic;
+}

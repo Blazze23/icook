@@ -1,0 +1,95 @@
+.container {
+  padding: 1rem 2rem;
+  color: #303841;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.control input {
+  min-width: 30%;
+}
+
+.control textarea {
+  min-width: 80%;
+}
+
+.control input,
+.control textarea,
+.control select,
+.ingredients input {
+  font: inherit;
+  padding: 0.35rem;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  display: block;
+  font-size: 1rem;
+}
+
+.control input,
+.control textarea,
+.control select {
+  outline-color: #303841;
+}
+
+.ingredients {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ingredients button {
+  margin-left: -3rem;
+  color: #303841;
+  background-color: #ffffff;
+  border: 1px solid #303841;
+}
+
+.ingredients button:hover {
+  color: red;
+}
+
+.ingredients select {
+  margin: 0 0 1rem;
+  cursor: pointer;
+}
+
+.ingredients input {
+  margin-bottom: 1rem;
+}
+
+.ingredientActions button {
+  min-width: 30%;
+  margin: 0.5rem 0;
+}
+
+.ingredientActions button:hover {
+  color: limegreen;
+}
+
+.actions {
+  text-align: left;
+}
+
+.actions button {
+  margin-top: 1rem;
+  min-width: 30%;
+}
+
+[role="alert"] {
+  color: red;
+  font-size: 0.75rem;
+}

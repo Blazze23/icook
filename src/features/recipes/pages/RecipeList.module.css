@@ -1,0 +1,64 @@
+.container {
+  padding: 1rem 2rem;
+  color: #303841;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noRecipes {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.noRecipes p {
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #303841;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+td.actions a,
+td.actions button {
+  font-size: 0.7rem;
+}
+
+td.actions button {
+  color: #303841;
+  background-color: #ffffff;
+  border: 1px solid #303841;
+}
+
+td.actions button:hover {
+  color: red;
+}
